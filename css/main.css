@@ -6,7 +6,7 @@ body{
   width: 100%;
   height: 100vh;
   background: linear-gradient(to left, orange, orangered);
-  padding-top: 7rem;
+  padding-top: 9rem;
 }
 
 .contents{
@@ -55,15 +55,17 @@ body{
 }
 .second-content h1{
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 input{
   width: 100%;
   margin: .5em;
-  padding: 0.3em;
-  border-radius: 5px;
-  border: 1px solid gray;
+  padding: 0.3em 0.5em;
+  border-radius: 10px;
+  border: 0.1px solid lightgray;
+  box-shadow: 0 0 3px lightgray;
+  outline: none;
 }
 
 .second-content .button{
